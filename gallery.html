@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollegeTips Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>CollegeTips<span>.Gallery</span></h1>
+        </div>
+        <nav>
+            <ul class="filter-menu">
+                <li data-category="all" class="active">All</li>
+                <li data-category="team-vibes">Team Vibes</li>
+                <li data-category="creative-campaigns">Creative Campaigns</li>
+                <li data-category="play-hard">Play Hard</li>
+                <li data-category="behind-scenes">Behind Scenes</li>
+                <li data-category="intern-highlights">Intern Highlights</li>
+                <li data-category="founder">Founder</li>
+                <li data-category="offices">Offices</li>
+                <li data-category="1st-aniversary">1st Anniversary</li>
+                <li data-category="2nd-aniversary">2nd Anniversary</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="gallery-container">
+            <!-- Images will be dynamically added here -->
+        </div>
+
+        <!-- Image popup container -->
+        <div class="image-popup">
+            <div class="popup-content">
+                <img src="" alt="Enlarged image">
+                <div class="reaction-container">
+                    <button class="reaction-btn" data-reaction="love">
+                        <i class="fas fa-heart"></i> <span>Love</span>
+                    </button>
+                    <button class="reaction-btn" data-reaction="clap">
+                        <i class="fas fa-hands-clapping"></i> <span>Clap</span>
+                    </button>
+                    <button class="reaction-btn" data-reaction="wow">
+                        <i class="fas fa-face-surprise"></i> <span>Wow</span>
+                    </button>
+                    <button class="reaction-btn" data-reaction="laugh">
+                        <i class="fas fa-face-laugh"></i> <span>Laugh</span>
+                    </button>
+                </div>
+                <button class="close-btn">&times;</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CollegeTips.in - All Rights Reserved</p>
+    </footer>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
