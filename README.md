@@ -17,10 +17,6 @@ This is a dynamic and responsive photo gallery website built for CollegeTips.in 
 - CSS3
 - JavaScript (Vanilla)
 
-## Live Demo
-
-[View Live on Netlify](https://collegetips-gallery.netlify.app)
-
 ## Contribution
 
 This project was created by *Vaibhav Soni* as part of an internship task for CollegeTips.in.  
